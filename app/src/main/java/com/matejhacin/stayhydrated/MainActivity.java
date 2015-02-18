@@ -28,7 +28,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     // Ad
     private InterstitialAd ad;
-    private String AD_ID = "ca-app-pub-9931422310281476/5678724146";
+    private String AD_ID = "MY_ID_HERE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
