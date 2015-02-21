@@ -2,7 +2,9 @@ package com.matejhacin.stayhydrated;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -28,7 +30,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     // Ad
     private InterstitialAd ad;
-    private String AD_ID = "MY_ID_HERE";
+    private String AD_ID = "MY_ADMOB_ID";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,7 +92,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     {
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
         dialog.setTitle("Done!")
-                .setMessage("When the notification appears, click \"Later!\" to get another notification in 15 minutes.\n\nA one time advertisment will now be shown.")
+                .setMessage("When the notification appears (in 2 hours), click \"Later!\" to get another notification in 15 minutes.\n\nA one time advertisment will now be shown.")
                 .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

@@ -34,7 +34,8 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
                 .addAction(R.drawable.drink_now, "Drink!", piDrink)
                 .addAction(R.drawable.drink_later, "Later!", piLater)
                 .setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))
-                .setPriority(NotificationCompat.PRIORITY_MAX);
+                .setPriority(NotificationCompat.PRIORITY_MAX)
+                .setOnlyAlertOnce(true);
         NotificationManager nManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         nManager.notify(1, nBuilder.build());
     }
@@ -77,4 +78,5 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
         String[] messages = context.getResources().getStringArray(R.array.notification_messages);
         return messages[new Random().nextInt(messages.length)];
     }
+
 }
