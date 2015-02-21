@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drinkly</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Drinkly</string>
+    <string name="description">I will remind you to have a drink every 2 hours.\n\nSimple as that.</string>
+
+    <string-array name="notification_messages">
+        <item>You should drink some water.</item>
+        <item>It ain\'t gonna drink itself.</item>
+        <item>Yo! Have a drink right now!</item>
+        <item>You\'re thirsty, have a drink!</item>
+    </string-array>
+
+</resources>

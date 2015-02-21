@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button colors -->
+    <color name="gray_disabled">#00a2f2</color>
+    <color name="gray_disabled_shadow">#0099e5</color>
+    <color name="text_button_disabled">#7fd4ff</color>
+    <color name="blue_enabled">#278BBF</color>
+    <color name="blue_enabled_shadow">#1A5D7F</color>
+    <color name="text_button_enabled">#ebf4fa</color>
+
+    <!-- Text color -->
+    <color name="normalText">#ebf4fa</color>
+
+    <!-- Other -->
+    <color name="backgroundColor">#34baff</color>
+
+</resources>
