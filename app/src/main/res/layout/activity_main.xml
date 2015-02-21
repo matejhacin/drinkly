@@ -10,7 +10,8 @@
     android:paddingLeft="25dp"
     android:paddingTop="25dp"
     android:paddingBottom="25dp"
-    android:background="#00aaff">
+    android:background="@color/backgroundColor"
+    android:id="@+id/linearLayout">
 
     <TextView
         android:id="@+id/title"
