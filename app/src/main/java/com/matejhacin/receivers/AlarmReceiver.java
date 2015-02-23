@@ -7,7 +7,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
+import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
 import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
@@ -27,8 +27,9 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
         PendingIntent piDrink = PendingIntent.getBroadcast(context, 0, new Intent(context, DrinkReceiver.class), PendingIntent.FLAG_UPDATE_CURRENT);
         PendingIntent piLater = PendingIntent.getBroadcast(context, 0, new Intent(context, LaterReceiver.class), PendingIntent.FLAG_UPDATE_CURRENT);
         NotificationCompat.Builder nBuilder = new NotificationCompat.Builder(context)
-                .setSmallIcon(R.drawable.ic_launcher)
-                .setTicker("Drinking time!")
+                .setSmallIcon(R.drawable.smallicon)
+                .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_launcher))
+                .setTicker("Time to drink!")
                 .setContentTitle(context.getResources().getString(R.string.app_name))
                 .setContentText(getRandomNotificationMessage(context))
                 .addAction(R.drawable.drink_now, "Drink!", piDrink)
