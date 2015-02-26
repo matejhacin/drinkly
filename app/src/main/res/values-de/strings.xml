@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drinkly</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title">Drinkly</string>
+    <string name="description">Ich werde dich alle 2 Stunden erinnern, etwas zu trinken.\n\nSo einfach ist das.</string>
+
+    <string-array name="notification_messages">
+        <item>Du solltest vielleicht etwas Wasser trinken.</item>
+        <item>Wasser wird sich nicht von selbst trinken.</item>
+        <item>Yo! Trink schnell was!</item>
+        <item>Ich weiß das du durstig bist, trink was!</item>
+        <item>Trink etwas Wasser! Oder Saft. Oder was du möchtest.</item>
+        <item>Halte deinen Körper hydriert. Trink!</item>
+        <item>Trink einen Schluck Wasser, bitte.</item>
+        <item>Wie wär\'s mit einem großen Schluck Wasser?</item>
+        <item>Auf geht\'s, trink ein Glas Wasser!</item>
+    </string-array>
+
+</resources>
