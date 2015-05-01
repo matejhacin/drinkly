@@ -9,14 +9,14 @@ import com.matejhacin.stayhydrated.MainActivity;
 
 public class DrinkReceiver extends BroadcastReceiver {
 
-    @Override
-    public void onReceive(Context context, Intent intent) {
+	@Override
+	public void onReceive(Context context, Intent intent) {
 
-        // Set AlarmManager to show again in 1 hour
-        new AlarmReceiver().setAlarm(context, MainActivity.DEFAULT_INTERVAL_DURATION);
+		// Set AlarmManager to show again in 1 hour
+		new AlarmReceiver().setAlarm(context, MainActivity.DEFAULT_INTERVAL_DURATION);
 
-        // Delete the notification
-        NotificationManager nManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-        nManager.cancel(1);
-    }
+		// Delete the notification
+		NotificationManager nManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+		nManager.cancel(1);
+	}
 }

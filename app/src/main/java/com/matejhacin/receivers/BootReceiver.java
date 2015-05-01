@@ -8,14 +8,13 @@ import com.matejhacin.stayhydrated.MainActivity;
 
 public class BootReceiver extends BroadcastReceiver {
 
-    AlarmReceiver alarm = new AlarmReceiver();
+	AlarmReceiver alarm = new AlarmReceiver();
 
-    @Override
-    public void onReceive(Context context, Intent intent) {
+	@Override
+	public void onReceive(Context context, Intent intent) {
 
-        if (intent.getAction().equals("android.intent.action.BOOT_COMPLETED"))
-        {
-            alarm.setAlarm(context, MainActivity.DEFAULT_INTERVAL_DURATION);
-        }
-    }
+		if (intent.getAction().equals("android.intent.action.BOOT_COMPLETED")) {
+			alarm.setAlarm(context, MainActivity.DEFAULT_INTERVAL_DURATION);
+		}
+	}
 }
