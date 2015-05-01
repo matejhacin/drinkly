@@ -7,14 +7,16 @@
     <string name="description">Ich werde dich alle 2 Stunden erinnern, etwas zu trinken.\n\nSo einfach ist das.</string>
 
     <string-array name="notification_messages">
+        <item>Hey Yo! Trink schnell was!</item>
         <item>Du solltest vielleicht etwas Wasser trinken.</item>
         <item>Wasser wird sich nicht von selbst trinken.</item>
-        <item>Yo! Trink schnell was!</item>
         <item>Ich weiß das du durstig bist, trink was!</item>
-        <item>Trink etwas Wasser! Oder Saft. Oder was du möchtest.</item>
-        <item>Halte deinen Körper hydriert. Trink!</item>
+        <item>Trink etwas Wasser! Oder Saft. Was auch immer du möchtest.</item>
+        <item>Halte deinen Körper hydriert. Trink etwas!</item>
+        <item>Ich finde, du solltest etwas trinken. Wie wär\'s mit Saft?</item>
         <item>Trink einen Schluck Wasser, bitte.</item>
-        <item>Wie wär\'s mit einem großen Schluck Wasser?</item>
+        <item>Ein großer Schluck Wasser wäre jetzt nicht schlecht, nicht wahr?</item>
+        <item>Wie wär\'s jetzt mit einem großen Schluck Wasser?</item>
         <item>Auf geht\'s, trink ein Glas Wasser!</item>
     </string-array>
 
