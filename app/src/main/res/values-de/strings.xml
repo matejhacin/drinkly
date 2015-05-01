@@ -5,6 +5,9 @@
     <string name="action_settings">Einstellungen</string>
     <string name="title">Drinkly</string>
     <string name="description">Ich werde dich alle 2 Stunden erinnern, etwas zu trinken.\n\nSo einfach ist das.</string>
+    <string name="dialog_title">Fertig!</string>
+    <string name="dialog_message">So bald die Benachrichtigung erscheint (in 2 Stunde), click auf "Später!" um eine nächste Benachrichtigung in 15 Minuten zu erhalten. Du wirst eine einmalige kurze Werbung sehen.</string>
+
 
     <string-array name="notification_messages">
         <item>Hey Yo! Trink schnell was!</item>

@@ -84,8 +84,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 	public void showStartDialog() {
 		AlertDialog.Builder dialog = new AlertDialog.Builder(this);
-		dialog.setTitle("Done!")
-				.setMessage("When the notification appears (in 2 hours), click \"Later!\" to get another notification in 15 minutes.\n\nA one time advertisment will now be shown.")
+		dialog.setTitle(getResources().getString(R.string.dialog_title))
+				.setMessage(getResources().getString(R.string.dialog_message))
 				.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
