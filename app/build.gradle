@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.matejhacin.stayhydrated"
         minSdkVersion 16
-        targetSdkVersion 21
+        targetSdkVersion 22
         versionCode 5
         versionName "1.0.4"
     }
