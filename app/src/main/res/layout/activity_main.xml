@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout
+    android:id="@+id/linearLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fbutton="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingRight="25dp"
-    android:paddingLeft="25dp"
-    android:paddingTop="25dp"
-    android:paddingBottom="25dp"
     android:background="@color/backgroundColor"
-    android:id="@+id/linearLayout">
+    android:orientation="vertical"
+    android:paddingBottom="25dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="25dp">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="60sp"
-        android:text="@string/title"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/normalText"
-        android:gravity="center"
         android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@color/normalText"
+        android:textSize="60sp"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
+        android:layout_weight="1"
         android:fontFamily="sans-serif-thin"
-        android:textColor="@color/normalText"
         android:gravity="center"
         android:text="@string/description"
-        android:layout_weight="1"/>
+        android:textColor="@color/normalText"
+        android:textSize="35sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,27 +41,27 @@
         android:orientation="horizontal">
 
         <info.hoang8f.widget.FButton
+            android:id="@+id/startButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
             android:text="Start"
             android:textColor="@color/text_button_enabled"
-            android:id="@+id/startButton"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp"
             fbutton:buttonColor="@color/blue_enabled"
             fbutton:shadowColor="@color/blue_enabled_shadow"
-        />
+            />
 
         <info.hoang8f.widget.FButton
+            android:id="@+id/stopButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
             android:text="Stop"
             android:textColor="@color/text_button_enabled"
-            android:id="@+id/stopButton"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginLeft="10dp"
             fbutton:buttonColor="@color/blue_enabled"
             fbutton:shadowColor="@color/blue_enabled_shadow"/>
 
